@@ -14,7 +14,7 @@ python data_process.py \
 --save_encoding_path ./save_encoding/${dataset_name}/token/
 ```
 
-### Aligning
+### Alignment
 ```
 python aligner.py \
 --do_test \
