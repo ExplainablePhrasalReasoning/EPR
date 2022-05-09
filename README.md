@@ -1,5 +1,5 @@
 # EPR
-Implementation of Weakly Supervised Explainable Phrasal Reasoningfor Natural Language Inference
+Implementation of Weakly Supervised Explainable Phrasal Reasoning for Natural Language Inference
 
 ## Execution
 dataset_name: mnli/snli  
