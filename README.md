@@ -1,7 +1,7 @@
 # EPR
 Implementation of Weakly Supervised Explainable Phrasal Reasoning for Natural Language Inference
 
-## Execution
+## Training
 dataset_name: mnli/snli  
 dataset_path: path containing MNLI/SNLI dataset
 ### Data process
@@ -25,7 +25,7 @@ python aligner.py \
 --save_encoding_path ./save_encoding/${dataset_name}/alignment/
 ```
 
-### Training
+### Model training
 ```
 python main_finetune_epr.py \
 --batch_size 256 \
@@ -38,6 +38,8 @@ python main_finetune_epr.py \
 --is_train
 ```
 
+## Checkpoint
+https://drive.google.com/file/d/12Z990_X3Ocu5_Ixgmm8xXorZIGWdY_ud/view?usp=sharing
 
 ## Evaluation
 ### Phrasal prediction
