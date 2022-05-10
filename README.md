@@ -3,7 +3,7 @@ Implementation of Weakly Supervised Explainable Phrasal Reasoning for Natural La
 
 ## Execution
 dataset_name: mnli/snli  
-dataset_path: path containing MNLI/SNLI dataset
+dataset_path: path containing MNLI/SNLI dataset  
 mode: local=0, global=1, concat=2
 ### Data process
 ```
