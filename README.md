@@ -1,7 +1,10 @@
 # EPR
 Implementation of Weakly Supervised Explainable Phrasal Reasoning for Natural Language Inference
 
-## Training
+## 1. Phrsal Reasoning Corpus
+The annotated corpus for SNLI/MNLI can be found [here](text_file).
+
+## 2. Training
 dataset_name: mnli/snli  
 dataset_path: path containing MNLI/SNLI dataset  
 mode: local=0, global=1, concat=2
@@ -39,10 +42,10 @@ python main_finetune_epr.py \
 --is_train
 ```
 
-## Checkpoint
+## 3. Checkpoint
 https://drive.google.com/file/d/12Z990_X3Ocu5_Ixgmm8xXorZIGWdY_ud/view?usp=sharing
 
-## Evaluation
+## 4. Evaluation
 ### Phrasal prediction
 ```
 python explain_epr.py \
